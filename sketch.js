@@ -8,9 +8,10 @@ function setup() {
 
 function draw(){
   background(200);
-  image(rabbits,10,10, 650, height - 30);
   filter('INVERT');
-  image(rabbits,width/2 + 20, 10, 650, height - 30); 
+  image(rabbits,100,100, 500, 500);
+  // filter('INVERT');
+  // image(rabbits,width/2 + 20, 10, 650, height - 30); 
 }
 
 function mousePressed() {
